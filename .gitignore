@@ -1,3 +1,7 @@
+
+generative_model/data/*
+poetry.lock
+pyproject.toml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
