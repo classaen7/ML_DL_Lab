@@ -1,4 +1,4 @@
-DeepLearning/data
+data
 
 generative_model/data/*
 poetry.lock
