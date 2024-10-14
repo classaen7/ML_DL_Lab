@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": {
+    "type": "Sequence",
+    "normalizers": [
+      {
+        "type": "NFD"
+      },
+      {
+        "type": "StripAccents"
+      }
+    ]
+  },
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<pad>": 0,
+      "<s>": 1,
+      "</s>": 2,
+      "<unk>": 3,
+      "?": 4,
+      "H": 5,
+      "a": 6,
+      "e": 7,
+      "l": 8,
+      "o": 9,
+      "r": 10,
+      "u": 11,
+      "w": 12,
+      "y": 13,
+      "ᄀ": 14,
+      "ᄂ": 15,
+      "ᄃ": 16,
+      "ᄅ": 17,
+      "ᄆ": 18,
+      "ᄉ": 19,
+      "ᄋ": 20,
+      "ᄒ": 21,
+      "ᅡ": 22,
+      "ᅥ": 23,
+      "ᅦ": 24,
+      "ᅧ": 25,
+      "ᅭ": 26,
+      "ᅮ": 27,
+      "ᅳ": 28,
+      "ᅴ": 29,
+      "ᅵ": 30,
+      "ᆫ": 31,
+      "ᆷ": 32,
+      "ᆺ": 33,
+      "ᆼ": 34,
+      "Ho": 35,
+      "요": 36,
+      "이": 37
+    },
+    "merges": [
+      "H o",
+      "ᄋ ᅭ",
+      "ᄋ ᅵ"
+    ]
+  }
+}
